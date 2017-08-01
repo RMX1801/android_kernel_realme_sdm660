@@ -432,3 +432,7 @@ obj-y += msm_sdw/
 #xiang.fei@PSW.MM.AudioDriver.SmartPA, 2017/01/13, Add for nxp speaker
 obj-y += tfa98xx/
 #endif /* CONFIG_PRODUCT_REALME_RMX1801 */
+
+# TODO: remove me b/62058353
+subdir-ccflags-y += \
+	-Wno-enum-conversion
