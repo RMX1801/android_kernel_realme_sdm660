@@ -22,6 +22,7 @@
 //#else /* CONFIG_PRODUCT_REALME_RMX1801 */
 #include "sdm660-internal-codec.dtsi"
 //#endif /* CONFIG_PRODUCT_REALME_RMX1801 */
+#include "sdm660-pm660a-mtp-18321-ramoops.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. SDM 660 PM660 + PM660A MTP";
